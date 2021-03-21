@@ -11,6 +11,8 @@ Unfortunately I couldn't find the link to the original source of the 60,000 waif
 
 ### Groups of Images
 
+### Gif 
+
 ## Acknowledgments
 Generative Adversarial Networks by Goodfellow et al.: https://arxiv.org/pdf/1406.2661.pdf
 
