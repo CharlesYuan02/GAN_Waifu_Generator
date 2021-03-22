@@ -24,8 +24,20 @@ Unfortunately I couldn't find the link to the original source of the 60,000 waif
 Note: This is a size-reduced version of the original GIF, hence its lowered resolution and slow change speed.
 <img src="https://github.com/Chubbyman2/GAN_Waifu_Generator/blob/main/results/training_visual_downsized.gif" height="384" width="384">
 
+### Training Results
+Loss values were calculated as an mean average over the first and last 1000 values for the initial losses and final losses, respectively.
+<img src="https://github.com/Chubbyman2/GAN_Waifu_Generator/blob/main/results/loss_values.png">
+
+Initial Generator Loss: 1.02
+
+Final Generator Loss: 1.16
+
+Initial Discriminator Loss: 0.65
+
+Final Discriminator Loss: 0.66
+
 ## Future Improvements
-This project was mostly limited due to the complexity of the GAN (the GAN used was fairly simple) and the low-quality images used. In the future, if a dataset comprised of higher-resolution waifu pictures was used, it would eliminate some of the effects related to the weird green pixels generated and produce much more usable profile pictures.
+This project was mostly limited due to the complexity of the GAN (the GAN used was fairly simple) and the low-quality images used. In the future, if a dataset comprised of higher-resolution waifu pictures was used, it would eliminate some of the effects related to the weird green pixels generated and produce much more usable profile pictures. Also, further research needs to be done into why the loss values for the generator and discriminator did not decrease.
 
 ## Acknowledgments
 Generative Adversarial Networks by Goodfellow et al.: https://arxiv.org/pdf/1406.2661.pdf
