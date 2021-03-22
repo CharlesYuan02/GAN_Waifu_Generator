@@ -8,10 +8,24 @@ Unfortunately I couldn't find the link to the original source of the 60,000 waif
 ## Sample Results
 
 ### Single Images
+<p float="left">
+<img src="https://github.com/Chubbyman2/GAN_Waifu_Generator/blob/main/results/generated_1_21.png" height="64" width="64">
+<img src="https://github.com/Chubbyman2/GAN_Waifu_Generator/blob/main/results/generated_1_20.png" height="64" width="64">
+<img src="https://github.com/Chubbyman2/GAN_Waifu_Generator/blob/main/results/generated_1_18.png" height="64" width="64">
+</p>
 
 ### Groups of Images
+<p float="left">
+<img src="https://github.com/Chubbyman2/GAN_Waifu_Generator/blob/main/results/generated_103.png" height="384" width="384">
+<img src="https://github.com/Chubbyman2/GAN_Waifu_Generator/blob/main/results/generated_104.png" height="384" width="384">
+</p>
 
 ### Gif 
+Note: This is a size-reduced version of the original GIF, hence its lowered resolution and slow change speed.
+<img src="https://github.com/Chubbyman2/GAN_Waifu_Generator/blob/main/results/training_visual_downsized.gif" height="384" width="384">
+
+## Future Improvements
+This project was mostly limited due to the complexity of the GAN (the GAN used was fairly simple) and the low-quality images used. In the future, if a dataset comprised of higher-resolution waifu pictures was used, it would eliminate some of the effects related to the weird green pixels generated and produce much more usable profile pictures.
 
 ## Acknowledgments
 Generative Adversarial Networks by Goodfellow et al.: https://arxiv.org/pdf/1406.2661.pdf
